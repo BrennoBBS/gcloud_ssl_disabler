@@ -10,17 +10,17 @@ def read_file(path):
         print("File not found, please check gcloud cli installation, should be installed for all users in the computer for this script to work")
         raise
 
-# Function to disable SSL
+# Function to replace (disable SSL)
 def disable_ssl(file_data):
     file_data = file_data.replace(old_string, new_string,1)
     return file_data
 
-# Function to disable SSL
+# Function to replace (enable SSL)
 def enable_ssl(file_data):
     file_data = file_data.replace(new_string, old_string,1)
     return file_data
 
-# Write the file out on Desktop
+# Write the file
 def overwrite(file_data):
     try:
         with open(file_path, 'w') as file:
