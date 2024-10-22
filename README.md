@@ -8,7 +8,11 @@ This just automates the steps described in this article: https://stackoverflow.c
 All credits to the person who answered it.
 
 HOW TO USE?
+
 1- I'm assuming you have python and gcloud cli installed, also that you're using Windows
+
 2- Save the .bat and the .py file in a folder
+
 3- Run the .bat file as administrator
+
 4- Profit
