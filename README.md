@@ -2,6 +2,7 @@
 This script will replace gcpcloud cli's source code to disabe SSL verification. Useful if you're having issues with Netskope or other company proxy. It also offers the option to undo the changes and re-enable SSL verification.
 
 USE THIS AT YOUR OWN RISK!
+
 SSL verification is strongly advised, but sometimes nothing else works ¯\_(ツ)_/¯
 
 This just automates the steps described in this article: https://stackoverflow.com/questions/70795283/installing-google-cloud-sdk-using-windows-ssl-error
