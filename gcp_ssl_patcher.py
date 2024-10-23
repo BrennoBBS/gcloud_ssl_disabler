@@ -8,6 +8,7 @@ def read_file(path):
             return file_data
     except:
         print("File not found, please check gcloud cli installation, should be installed for all users in the computer for this script to work")
+        input("Press Enter to exit...")
         raise
 
 # Function to replace (disable SSL)
@@ -27,7 +28,9 @@ def overwrite(file_data):
             file.write(file_data)
     except:
         print("Couldn't write file. Are you running as admin?")
+        input("Press Enter to exit...")
         raise
+        
 
 #Main:
 
@@ -53,3 +56,6 @@ elif operation == 2:
     print("SSL verification reactivated.")
 else:
     print("Invalid option")
+
+# Persist info on screen
+input("Press Enter to exit...")
