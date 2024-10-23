@@ -12,8 +12,8 @@ HOW TO USE?
 
 1- I'm assuming you have python and gcloud cli installed, also that you're using Windows
 
-2- Save the .bat and the .py file in a folder
+2- Download the executable OR Donwload the .bat and the .py file in the same folder
 
-3- Run the .bat file as administrator
+3- Run the .exe OR .bat file as administrator
 
 4- Profit
