@@ -1,6 +1,6 @@
 # gcloud_ssl_disabler
 
-This script will replace gcpcloud cli's source code to disabe SSL verification. Useful if you're having issues with Netskope or other company proxy while installing gcloud cli or running gcloud commands. It also offers the option to undo the changes and re-enable SSL verification.
+This script will replace gcloud cli's source code to disabe SSL verification. Useful if you're having issues with Netskope or other company proxy while installing gcloud cli or running gcloud commands. It also offers the option to undo the changes and re-enable SSL verification.
 
 Use this at your own risk!
 
@@ -10,7 +10,6 @@ This just automates the steps described here: https://stackoverflow.com/question
 All credits to the person who answered it.
 
 I'm assuming you have python installed and that you're using Windows.
-
 
 **HOW TO USE? (SSL error during installation)**
 
