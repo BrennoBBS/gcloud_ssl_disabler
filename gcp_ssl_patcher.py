@@ -37,7 +37,7 @@ def overwrite(file_data):
 # Path of the file we need to patch, feel free to change if installed elsewhere
 file_path = r"C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\third_party\requests\sessions.py"
 
-# substituion it will perform: (only 1 occurence)
+# substitution it will perform: (only 1 occurence)
 old_string = "prep.url, proxies, stream, verify, cert"
 new_string = "prep.url, proxies, stream, False, cert"
 
