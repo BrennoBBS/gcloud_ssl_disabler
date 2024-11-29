@@ -26,8 +26,8 @@ I'm assuming you have python installed and that you're using Windows.
 
 **HOW TO USE? (Error running commands after installing gcloud cli)**
 
-1- Download the executable OR Donwload the .bat and the .py file in the same folder
+1- Download the executable OR Download the .bat and the .py file in the same folder
 
-2- Run the .exe OR .bat file as administrator, patch the file (option 1)
+2- Run the .exe OR .bat file as administrator, select option 1
 
 3- Profit
